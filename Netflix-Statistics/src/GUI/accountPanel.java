@@ -12,6 +12,7 @@ public class accountPanel  extends JPanel {
     }
 
     private void createComponents(){
+
         setLayout(null);
         JTextField select = new JTextField("Selecteer film of serie");
         Font SansSerif = new Font("SansSerif", Font.PLAIN, 20);
@@ -46,10 +47,10 @@ public class accountPanel  extends JPanel {
         accountlijst.setEditable(false);
         add(accountlijst);
 
-        JTextField resultField = new JTextField("");
+        JTextField resultField = new JTextField();
         resultField.setBackground(Color.white);
         resultField.setEditable(false);
-        resultField.setBounds(100,300,690,580);
+        resultField.setBounds(100,300,750,580);
         add(resultField);
     }
 }

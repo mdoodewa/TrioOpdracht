@@ -18,7 +18,6 @@ public class viewPanel extends JPanel {
         Overzicht2.setPreferredSize(new Dimension(100,40));
         JButton Overzicht3 = new JButton("Overzicht3");
         Overzicht3.setPreferredSize(new Dimension(100,40));
-        //add(afbeelding)
         add(Overzicht1);
         add(Overzicht2);
         add(Overzicht3);
