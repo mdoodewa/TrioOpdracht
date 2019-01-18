@@ -12,6 +12,6 @@ public class footerPanel extends JPanel {
 
     private void createComponents() {
         add(new JTextField("Netflix Statistix"));
-        add(new JTextField("23IVT1A1, Martijn Doodewaard, Pawel Trajdos, Stan Begthel"));
+        add(new JTextField("Informatica, jaar1, 23IVT1A1, Martijn Doodewaard, Pawel Trajdos, Stan Begthel"));
     }
 }
