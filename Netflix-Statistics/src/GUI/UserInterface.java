@@ -1,5 +1,7 @@
 package GUI;
 
+import Database.SqlConnection;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -13,10 +15,10 @@ public class UserInterface implements Runnable {
     @Override
     public void run() {
         frame = new JFrame("Netflix Statistix");
-        frame.setPreferredSize(new Dimension(1000, 900));
+        frame.setPreferredSize(new Dimension(1000, 900));//set the window size
 
-        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);//making the close button work
+        frame.setTitle("Netflix statistics");
         createComponents(frame.getContentPane());
 
         frame.pack();
