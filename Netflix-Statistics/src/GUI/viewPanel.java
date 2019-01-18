@@ -1,3 +1,5 @@
+package GUI;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -6,7 +8,7 @@ public class viewPanel extends JPanel {
     public viewPanel(){
         super(new FlowLayout(FlowLayout.LEFT));
                 createComponents();
-                setBackground(Color.WHITE);
+                setBackground(Color.red);
     }
 
     private void createComponents(){
@@ -16,6 +18,7 @@ public class viewPanel extends JPanel {
         Overzicht2.setPreferredSize(new Dimension(100,40));
         JButton Overzicht3 = new JButton("Overzicht3");
         Overzicht3.setPreferredSize(new Dimension(100,40));
+        //add(afbeelding)
         add(Overzicht1);
         add(Overzicht2);
         add(Overzicht3);

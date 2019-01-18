@@ -1,3 +1,5 @@
+package GUI;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -11,7 +13,7 @@ public class UserInterface implements Runnable {
     @Override
     public void run() {
         frame = new JFrame("Netflix Statistix");
-        frame.setPreferredSize(new Dimension(1000, 1000));
+        frame.setPreferredSize(new Dimension(800, 800));
 
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
@@ -22,7 +24,7 @@ public class UserInterface implements Runnable {
     }
 
     private void createComponents(Container container) {
-        //container.add(new selectPanel());
+        container.add(new accountPanel());
         container.add(new viewPanel(), BorderLayout.NORTH);
         //container.add(new footerPanel(), BorderLayout.SOUTH);
 
