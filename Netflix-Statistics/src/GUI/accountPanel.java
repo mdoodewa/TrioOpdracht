@@ -7,7 +7,7 @@ public class accountPanel  extends JPanel {
 
     public accountPanel(){
         createComponents();
-        setBackground(Color.WHITE);
+        setBackground(backgroundColor);
         setLayout(null);
     }
 
